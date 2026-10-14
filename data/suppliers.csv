@@ -1,0 +1,9 @@
+supplier_id,supplier_name,country,standard_lead_time_days,reliability_score
+S-01,Supplier 01,DE,5,0.96
+S-02,Supplier 02,AT,7,0.91
+S-03,Supplier 03,CZ,12,0.82
+S-04,Supplier 04,NL,6,0.94
+S-05,Supplier 05,DE,9,0.87
+S-06,Supplier 06,PL,11,0.84
+S-07,Supplier 07,DE,4,0.97
+S-08,Supplier 08,IT,8,0.89

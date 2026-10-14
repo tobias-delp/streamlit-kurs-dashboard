@@ -1,0 +1,251 @@
+product_id,product_name,category,purchase_price,unit_price,supplier_id,active
+P-0001,Produkt 0001,Sensors,373.83,558.55,S-02,True
+P-0002,Produkt 0002,Industrial Control,79.4,115.11,S-03,True
+P-0003,Produkt 0003,Mechanical,445.94,645.52,S-06,True
+P-0004,Produkt 0004,Pneumatics,697.97,1035.92,S-05,True
+P-0005,Produkt 0005,Mechanical,269.26,390.58,S-05,True
+P-0006,Produkt 0006,Sensors,187.81,282.12,S-06,True
+P-0007,Produkt 0007,Mechanical,790.32,952.19,S-08,True
+P-0008,Produkt 0008,Mechanical,102.55,124.53,S-07,True
+P-0009,Produkt 0009,Mechanical,303.4,406.54,S-05,True
+P-0010,Produkt 0010,Electrical,756.44,992.74,S-01,True
+P-0011,Produkt 0011,Industrial Control,730.05,879.83,S-05,True
+P-0012,Produkt 0012,Pneumatics,512.17,773.11,S-02,True
+P-0013,Produkt 0013,Sensors,314.5,383.46,S-06,True
+P-0014,Produkt 0014,Electrical,633.2,1029.57,S-03,True
+P-0015,Produkt 0015,Electrical,558.53,899.94,S-05,True
+P-0016,Produkt 0016,Sensors,867.81,1293.39,S-05,True
+P-0017,Produkt 0017,Sensors,420.33,651.48,S-06,True
+P-0018,Produkt 0018,Industrial Control,823.11,1225.21,S-05,True
+P-0019,Produkt 0019,Electrical,830.21,1289.23,S-04,True
+P-0020,Produkt 0020,Pneumatics,659.56,844.89,S-04,True
+P-0021,Produkt 0021,Pneumatics,768.4,1049.43,S-05,True
+P-0022,Produkt 0022,Sensors,60.19,90.22,S-07,True
+P-0023,Produkt 0023,Electrical,232.52,284.94,S-08,True
+P-0024,Produkt 0024,Electrical,787.16,947.04,S-02,True
+P-0025,Produkt 0025,Electrical,217.57,357.4,S-05,True
+P-0026,Produkt 0026,Electrical,52.39,72.13,S-07,True
+P-0027,Produkt 0027,Electrical,258.77,417.93,S-02,True
+P-0028,Produkt 0028,Pneumatics,146.85,222.13,S-02,True
+P-0029,Produkt 0029,Electrical,749.15,1132.51,S-08,True
+P-0030,Produkt 0030,Mechanical,408.14,529.33,S-08,True
+P-0031,Produkt 0031,Sensors,79.72,127.26,S-07,True
+P-0032,Produkt 0032,Mechanical,590.59,880.05,S-08,True
+P-0033,Produkt 0033,Sensors,220.35,315.54,S-05,True
+P-0034,Produkt 0034,Sensors,178.96,271.49,S-02,True
+P-0035,Produkt 0035,Electrical,726.63,1134.81,S-06,True
+P-0036,Produkt 0036,Industrial Control,244.64,318.68,S-03,True
+P-0037,Produkt 0037,Mechanical,858.94,1033.66,S-05,True
+P-0038,Produkt 0038,Industrial Control,200.03,240.09,S-05,True
+P-0039,Produkt 0039,Pneumatics,870.5,1280.21,S-08,True
+P-0040,Produkt 0040,Electrical,665.39,1067.68,S-05,True
+P-0041,Produkt 0041,Industrial Control,19.17,23.84,S-05,True
+P-0042,Produkt 0042,Mechanical,455.33,680.52,S-08,True
+P-0043,Produkt 0043,Electrical,74.1,105.76,S-04,True
+P-0044,Produkt 0044,Sensors,172.81,272.78,S-01,True
+P-0045,Produkt 0045,Electrical,258.22,318.72,S-03,True
+P-0046,Produkt 0046,Sensors,822.29,1355.38,S-07,True
+P-0047,Produkt 0047,Electrical,624.64,739.5,S-06,True
+P-0048,Produkt 0048,Electrical,312.62,402.6,S-06,True
+P-0049,Produkt 0049,Sensors,15.21,21.25,S-04,True
+P-0050,Produkt 0050,Electrical,125.41,176.2,S-08,True
+P-0051,Produkt 0051,Mechanical,565.3,767.18,S-03,True
+P-0052,Produkt 0052,Sensors,401.57,548.75,S-01,True
+P-0053,Produkt 0053,Industrial Control,864.29,1281.79,S-05,True
+P-0054,Produkt 0054,Mechanical,224.59,323.27,S-01,True
+P-0055,Produkt 0055,Mechanical,553.19,895.15,S-07,True
+P-0056,Produkt 0056,Mechanical,250.03,370.74,S-02,True
+P-0057,Produkt 0057,Sensors,600.87,856.73,S-08,True
+P-0058,Produkt 0058,Mechanical,823.33,1194.81,S-07,True
+P-0059,Produkt 0059,Industrial Control,675.47,1022.99,S-03,True
+P-0060,Produkt 0060,Mechanical,117.42,153.5,S-05,True
+P-0061,Produkt 0061,Industrial Control,801.12,1071.29,S-03,True
+P-0062,Produkt 0062,Electrical,131.48,212.87,S-01,True
+P-0063,Produkt 0063,Electrical,697.72,927.5,S-06,True
+P-0064,Produkt 0064,Industrial Control,602.39,982.59,S-05,True
+P-0065,Produkt 0065,Sensors,61.52,101.5,S-06,True
+P-0066,Produkt 0066,Industrial Control,735.81,996.63,S-05,True
+P-0067,Produkt 0067,Electrical,885.1,1338.18,S-06,True
+P-0068,Produkt 0068,Industrial Control,664.86,859.41,S-05,True
+P-0069,Produkt 0069,Sensors,825.77,1346.41,S-06,True
+P-0070,Produkt 0070,Mechanical,475.45,613.57,S-07,True
+P-0071,Produkt 0071,Industrial Control,129.41,181.68,S-03,True
+P-0072,Produkt 0072,Sensors,291.18,380.45,S-05,True
+P-0073,Produkt 0073,Industrial Control,608.79,745.28,S-03,True
+P-0074,Produkt 0074,Sensors,550.32,829.98,S-05,True
+P-0075,Produkt 0075,Industrial Control,821.09,1143.94,S-06,True
+P-0076,Produkt 0076,Sensors,245.21,373.41,S-07,True
+P-0077,Produkt 0077,Pneumatics,481.79,705.32,S-07,True
+P-0078,Produkt 0078,Industrial Control,144.42,223.98,S-03,True
+P-0079,Produkt 0079,Mechanical,683.39,1022.67,S-05,True
+P-0080,Produkt 0080,Sensors,262.25,334.5,S-08,True
+P-0081,Produkt 0081,Mechanical,229.23,369.0,S-08,True
+P-0082,Produkt 0082,Sensors,502.79,752.78,S-06,True
+P-0083,Produkt 0083,Pneumatics,240.97,301.82,S-08,True
+P-0084,Produkt 0084,Industrial Control,746.01,1123.69,S-05,True
+P-0085,Produkt 0085,Sensors,397.91,612.87,S-07,True
+P-0086,Produkt 0086,Electrical,676.6,879.28,S-05,True
+P-0087,Produkt 0087,Sensors,480.67,572.35,S-07,True
+P-0088,Produkt 0088,Sensors,214.82,332.23,S-04,True
+P-0089,Produkt 0089,Industrial Control,359.57,431.18,S-05,True
+P-0090,Produkt 0090,Pneumatics,618.61,994.11,S-07,True
+P-0091,Produkt 0091,Industrial Control,223.55,267.7,S-03,True
+P-0092,Produkt 0092,Electrical,287.4,365.9,S-04,True
+P-0093,Produkt 0093,Pneumatics,203.47,313.38,S-07,True
+P-0094,Produkt 0094,Sensors,696.49,880.43,S-05,True
+P-0095,Produkt 0095,Electrical,101.74,154.57,S-05,True
+P-0096,Produkt 0096,Mechanical,668.36,956.55,S-07,True
+P-0097,Produkt 0097,Mechanical,10.01,12.5,S-07,True
+P-0098,Produkt 0098,Sensors,502.56,664.22,S-06,True
+P-0099,Produkt 0099,Sensors,579.3,844.3,S-04,True
+P-0100,Produkt 0100,Mechanical,779.0,952.61,S-05,True
+P-0101,Produkt 0101,Industrial Control,49.57,63.4,S-05,True
+P-0102,Produkt 0102,Electrical,57.59,74.84,S-03,True
+P-0103,Produkt 0103,Electrical,81.73,122.73,S-08,True
+P-0104,Produkt 0104,Mechanical,88.52,142.28,S-02,True
+P-0105,Produkt 0105,Mechanical,38.14,48.98,S-07,True
+P-0106,Produkt 0106,Pneumatics,822.53,1324.66,S-04,True
+P-0107,Produkt 0107,Pneumatics,734.59,934.26,S-01,True
+P-0108,Produkt 0108,Sensors,867.86,1034.08,S-07,True
+P-0109,Produkt 0109,Sensors,814.71,1179.44,S-08,True
+P-0110,Produkt 0110,Mechanical,860.92,1270.95,S-05,True
+P-0111,Produkt 0111,Industrial Control,623.46,1012.19,S-06,True
+P-0112,Produkt 0112,Electrical,547.11,690.75,S-01,True
+P-0113,Produkt 0113,Electrical,800.88,999.98,S-07,True
+P-0114,Produkt 0114,Mechanical,142.54,223.29,S-08,True
+P-0115,Produkt 0115,Mechanical,11.13,14.56,S-08,True
+P-0116,Produkt 0116,Mechanical,237.34,369.24,S-04,True
+P-0117,Produkt 0117,Electrical,337.23,479.8,S-03,True
+P-0118,Produkt 0118,Pneumatics,332.42,483.72,S-04,True
+P-0119,Produkt 0119,Pneumatics,791.56,1102.96,S-05,True
+P-0120,Produkt 0120,Mechanical,818.03,1183.29,S-04,True
+P-0121,Produkt 0121,Industrial Control,475.9,763.26,S-03,True
+P-0122,Produkt 0122,Industrial Control,746.27,1097.52,S-03,True
+P-0123,Produkt 0123,Electrical,84.0,102.15,S-06,True
+P-0124,Produkt 0124,Mechanical,288.05,349.97,S-01,True
+P-0125,Produkt 0125,Mechanical,219.56,278.51,S-05,True
+P-0126,Produkt 0126,Industrial Control,537.64,707.93,S-05,True
+P-0127,Produkt 0127,Pneumatics,157.32,211.24,S-06,True
+P-0128,Produkt 0128,Mechanical,612.94,736.58,S-05,True
+P-0129,Produkt 0129,Electrical,363.38,492.27,S-03,True
+P-0130,Produkt 0130,Pneumatics,85.68,133.64,S-05,True
+P-0131,Produkt 0131,Mechanical,313.4,441.1,S-05,True
+P-0132,Produkt 0132,Sensors,273.5,411.15,S-05,True
+P-0133,Produkt 0133,Mechanical,18.91,30.35,S-01,True
+P-0134,Produkt 0134,Sensors,535.26,775.0,S-05,True
+P-0135,Produkt 0135,Sensors,286.27,406.84,S-06,True
+P-0136,Produkt 0136,Sensors,627.3,955.36,S-06,True
+P-0137,Produkt 0137,Electrical,373.86,560.58,S-02,True
+P-0138,Produkt 0138,Electrical,326.18,471.18,S-07,True
+P-0139,Produkt 0139,Electrical,343.39,551.74,S-01,True
+P-0140,Produkt 0140,Electrical,47.54,59.4,S-03,True
+P-0141,Produkt 0141,Mechanical,556.01,839.14,S-01,True
+P-0142,Produkt 0142,Mechanical,388.01,536.12,S-02,True
+P-0143,Produkt 0143,Pneumatics,171.03,251.85,S-04,True
+P-0144,Produkt 0144,Pneumatics,438.09,660.69,S-01,True
+P-0145,Produkt 0145,Industrial Control,285.68,417.16,S-03,True
+P-0146,Produkt 0146,Industrial Control,894.24,1444.98,S-05,True
+P-0147,Produkt 0147,Sensors,535.2,872.66,S-06,True
+P-0148,Produkt 0148,Pneumatics,21.23,32.29,S-06,True
+P-0149,Produkt 0149,Electrical,672.09,843.71,S-02,True
+P-0150,Produkt 0150,Industrial Control,602.68,900.9,S-05,True
+P-0151,Produkt 0151,Sensors,725.15,1114.65,S-02,True
+P-0152,Produkt 0152,Sensors,758.57,924.47,S-08,True
+P-0153,Produkt 0153,Pneumatics,604.12,762.78,S-06,True
+P-0154,Produkt 0154,Electrical,595.52,801.5,S-02,True
+P-0155,Produkt 0155,Mechanical,587.51,933.6,S-04,True
+P-0156,Produkt 0156,Sensors,645.66,917.44,S-02,True
+P-0157,Produkt 0157,Pneumatics,854.81,1219.68,S-05,True
+P-0158,Produkt 0158,Sensors,348.74,433.57,S-05,True
+P-0159,Produkt 0159,Sensors,468.51,652.43,S-06,True
+P-0160,Produkt 0160,Mechanical,540.67,702.89,S-04,True
+P-0161,Produkt 0161,Sensors,671.52,1031.31,S-05,True
+P-0162,Produkt 0162,Electrical,779.93,1240.9,S-03,True
+P-0163,Produkt 0163,Industrial Control,485.27,597.52,S-03,True
+P-0164,Produkt 0164,Mechanical,291.1,402.57,S-07,True
+P-0165,Produkt 0165,Industrial Control,422.3,665.17,S-03,True
+P-0166,Produkt 0166,Sensors,562.75,807.35,S-01,True
+P-0167,Produkt 0167,Electrical,107.23,155.64,S-01,True
+P-0168,Produkt 0168,Electrical,824.81,1010.39,S-07,True
+P-0169,Produkt 0169,Mechanical,768.25,1187.97,S-06,True
+P-0170,Produkt 0170,Pneumatics,256.9,323.98,S-06,True
+P-0171,Produkt 0171,Sensors,810.61,1281.49,S-04,True
+P-0172,Produkt 0172,Sensors,215.9,307.21,S-07,True
+P-0173,Produkt 0173,Electrical,733.74,1029.98,S-01,True
+P-0174,Produkt 0174,Electrical,222.32,290.33,S-05,True
+P-0175,Produkt 0175,Mechanical,532.78,668.79,S-05,True
+P-0176,Produkt 0176,Sensors,344.66,434.69,S-02,True
+P-0177,Produkt 0177,Sensors,141.97,221.03,S-01,True
+P-0178,Produkt 0178,Sensors,647.22,804.53,S-01,True
+P-0179,Produkt 0179,Industrial Control,67.95,89.42,S-03,True
+P-0180,Produkt 0180,Electrical,828.73,1015.37,S-06,True
+P-0181,Produkt 0181,Mechanical,828.11,1298.88,S-06,True
+P-0182,Produkt 0182,Industrial Control,242.99,369.97,S-06,True
+P-0183,Produkt 0183,Pneumatics,602.56,711.56,S-04,True
+P-0184,Produkt 0184,Sensors,879.05,1325.99,S-07,True
+P-0185,Produkt 0185,Pneumatics,756.99,922.57,S-07,True
+P-0186,Produkt 0186,Electrical,470.22,654.36,S-04,True
+P-0187,Produkt 0187,Sensors,677.65,1013.8,S-02,True
+P-0188,Produkt 0188,Pneumatics,408.87,556.95,S-02,True
+P-0189,Produkt 0189,Electrical,808.97,1153.5,S-08,True
+P-0190,Produkt 0190,Pneumatics,307.57,468.95,S-01,True
+P-0191,Produkt 0191,Electrical,840.75,1192.98,S-03,True
+P-0192,Produkt 0192,Electrical,465.47,616.64,S-04,True
+P-0193,Produkt 0193,Pneumatics,760.91,897.99,S-08,True
+P-0194,Produkt 0194,Sensors,692.25,1034.97,S-02,True
+P-0195,Produkt 0195,Sensors,839.96,1238.97,S-08,True
+P-0196,Produkt 0196,Sensors,28.08,45.55,S-04,True
+P-0197,Produkt 0197,Sensors,188.68,261.73,S-02,True
+P-0198,Produkt 0198,Sensors,855.67,1030.46,S-04,True
+P-0199,Produkt 0199,Industrial Control,438.71,582.45,S-03,True
+P-0200,Produkt 0200,Sensors,853.75,1141.45,S-01,True
+P-0201,Produkt 0201,Electrical,405.75,557.95,S-02,True
+P-0202,Produkt 0202,Electrical,214.02,311.49,S-02,True
+P-0203,Produkt 0203,Electrical,813.24,1244.11,S-07,True
+P-0204,Produkt 0204,Sensors,745.99,968.78,S-06,True
+P-0205,Produkt 0205,Pneumatics,98.86,136.27,S-07,True
+P-0206,Produkt 0206,Sensors,802.08,1193.48,S-05,True
+P-0207,Produkt 0207,Electrical,29.99,48.52,S-01,True
+P-0208,Produkt 0208,Mechanical,633.0,1029.66,S-03,True
+P-0209,Produkt 0209,Sensors,295.21,406.18,S-04,True
+P-0210,Produkt 0210,Industrial Control,513.27,669.23,S-05,True
+P-0211,Produkt 0211,Industrial Control,113.22,151.17,S-06,True
+P-0212,Produkt 0212,Industrial Control,22.95,36.66,S-03,True
+P-0213,Produkt 0213,Electrical,758.81,1064.13,S-02,True
+P-0214,Produkt 0214,Mechanical,144.3,196.88,S-08,True
+P-0215,Produkt 0215,Electrical,332.04,482.47,S-03,True
+P-0216,Produkt 0216,Electrical,325.25,508.42,S-07,True
+P-0217,Produkt 0217,Electrical,577.88,860.23,S-01,True
+P-0218,Produkt 0218,Sensors,556.78,792.11,S-01,True
+P-0219,Produkt 0219,Mechanical,399.19,493.65,S-06,True
+P-0220,Produkt 0220,Mechanical,546.0,893.86,S-08,True
+P-0221,Produkt 0221,Industrial Control,479.36,584.73,S-05,True
+P-0222,Produkt 0222,Electrical,455.74,729.01,S-03,True
+P-0223,Produkt 0223,Pneumatics,645.5,1055.98,S-01,True
+P-0224,Produkt 0224,Pneumatics,306.12,453.49,S-05,True
+P-0225,Produkt 0225,Industrial Control,741.62,1138.7,S-06,True
+P-0226,Produkt 0226,Electrical,95.59,142.19,S-04,True
+P-0227,Produkt 0227,Electrical,519.96,852.47,S-01,True
+P-0228,Produkt 0228,Mechanical,171.52,232.4,S-07,True
+P-0229,Produkt 0229,Industrial Control,874.17,1291.35,S-05,True
+P-0230,Produkt 0230,Electrical,108.62,169.24,S-06,True
+P-0231,Produkt 0231,Sensors,486.06,602.98,S-04,True
+P-0232,Produkt 0232,Pneumatics,858.4,1307.84,S-08,True
+P-0233,Produkt 0233,Sensors,812.6,1200.99,S-05,True
+P-0234,Produkt 0234,Pneumatics,429.94,575.2,S-01,True
+P-0235,Produkt 0235,Sensors,132.94,170.63,S-05,True
+P-0236,Produkt 0236,Sensors,703.7,959.14,S-03,True
+P-0237,Produkt 0237,Electrical,65.68,93.77,S-04,True
+P-0238,Produkt 0238,Electrical,493.95,621.99,S-05,True
+P-0239,Produkt 0239,Electrical,452.47,725.96,S-01,True
+P-0240,Produkt 0240,Industrial Control,833.9,995.36,S-06,True
+P-0241,Produkt 0241,Electrical,443.37,524.95,S-01,True
+P-0242,Produkt 0242,Industrial Control,635.14,988.53,S-03,True
+P-0243,Produkt 0243,Industrial Control,159.74,200.43,S-05,True
+P-0244,Produkt 0244,Electrical,853.17,1113.27,S-01,True
+P-0245,Produkt 0245,Mechanical,483.16,580.98,S-02,True
+P-0246,Produkt 0246,Industrial Control,573.52,886.65,S-05,True
+P-0247,Produkt 0247,Pneumatics,629.82,860.58,S-06,True
+P-0248,Produkt 0248,Mechanical,343.13,532.0,S-07,True
+P-0249,Produkt 0249,Industrial Control,772.28,1169.22,S-05,True
+P-0250,Produkt 0250,Pneumatics,607.93,921.98,S-08,True

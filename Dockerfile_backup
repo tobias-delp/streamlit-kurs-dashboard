@@ -1,0 +1,8 @@
+FROM astral/uv:python3.14-alpine
+WORKDIR /
+COPY pyproject.toml uv.lock README.md .
+COPY src/streamlit_kurs_dashboard/__init__.py src/streamlit_kurs_dashboard/__init__.py 
+RUN uv sync
+COPY ./src/streamlit_kurs_dashboard/app.py src/streamlit_kurs_dashboard/app.py
+COPY ./data ./data
+CMD ["uv", "run", "streamlit", "run", "src/streamlit_kurs_dashboard/app.py"]
