@@ -10,6 +10,7 @@ zeigt dabei den praktischen Einsatz von Pandas, Plotly und Matplotlib.
 - Kennzahlen zu Umsatz, Bestellungen, Bestellwert und Lieferverzögerungen
 - Umsatzentwicklung sowie Auswertungen nach Segment und Bestellstatus
 - Analyse von Produktkategorien und Top-Produkten
+- Kundenanalyse nach Region, Land, Bestellhäufigkeit und Kundenwert
 - Auswertung von Versanddiensten und Reklamationsarten
 - Vorschau und statistische Beschreibung der zugrunde liegenden CSV-Dateien
 - Download der gefilterten Bestellungen als CSV

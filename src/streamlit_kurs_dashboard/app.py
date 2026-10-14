@@ -61,7 +61,7 @@ c2.metric("Bestellungen", f"{order_count:,}")
 c3.metric("Ø Bestellwert", f"{average_order:,.0f} €")
 c4.metric("Verspätete Lieferungen", f"{delay_rate:.1%}")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Überblick", "Produkte", "Service & Logistik", "Daten entdecken"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Überblick", "Produkte", "Kundenanalyse", "Service & Logistik", "Daten entdecken"])
 
 with tab1:
     st.subheader("Umsatzentwicklung")
@@ -109,6 +109,105 @@ with tab2:
     st.dataframe(product_sales.nlargest(top_n, "umsatz")[["product_name", "umsatz", "stueck"]], hide_index=True, width='stretch')
 
 with tab3:
+    st.subheader("Kundenanalyse")
+
+    customer_data = filtered.groupby("customer_id", as_index=False).agg(
+        bestellungen=("order_id", "nunique"),
+        umsatz=("order_value", "sum"),
+        durchschnittlicher_bestellwert=("order_value", "mean"),
+        letzte_bestellung=("order_date", "max"),
+    )
+    customer_data = customer_data.merge(
+        tables["customers"][["customer_id", "company_name", "customer_segment", "country", "region", "priority_level"]],
+        on="customer_id",
+        how="left",
+    )
+
+    active_customers = customer_data["customer_id"].nunique()
+    orders_per_customer = customer_data["bestellungen"].mean()
+    repeat_rate = (customer_data["bestellungen"] > 1).mean()
+
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Aktive Kunden", f"{active_customers:,}")
+    c2.metric("Ø Bestellungen je Kunde", f"{orders_per_customer:.1f}")
+    c3.metric("Wiederbestellrate", f"{repeat_rate:.1%}")
+
+    left, right = st.columns(2)
+    with left:
+        grouping = st.radio(
+            "Umsatz gruppieren nach",
+            ["Region", "Land"],
+            horizontal=True,
+            key="customer_grouping",
+        )
+        group_column = "region" if grouping == "Region" else "country"
+        grouped_customers = customer_data.groupby(group_column, as_index=False).agg(
+            umsatz=("umsatz", "sum"),
+            kunden=("customer_id", "nunique"),
+        )
+        fig = px.bar(
+            grouped_customers,
+            x=group_column,
+            y="umsatz",
+            color="kunden",
+            labels={group_column: grouping, "umsatz": "Umsatz (€)", "kunden": "Aktive Kunden"},
+            template="plotly_white",
+        )
+        st.plotly_chart(fig, width="stretch")
+
+    with right:
+        st.markdown("**Kundenwert und Bestellhäufigkeit**")
+        fig = px.scatter(
+            customer_data,
+            x="bestellungen",
+            y="umsatz",
+            color="customer_segment",
+            size="durchschnittlicher_bestellwert",
+            hover_name="company_name",
+            labels={
+                "bestellungen": "Anzahl Bestellungen",
+                "umsatz": "Umsatz (€)",
+                "customer_segment": "Segment",
+                "durchschnittlicher_bestellwert": "Ø Bestellwert",
+            },
+            template="plotly_white",
+        )
+        st.plotly_chart(fig, width="stretch")
+
+    st.subheader("Top-Kunden")
+    col_filter, col_count = st.columns([2, 1])
+    with col_filter:
+        priority_options = sorted(customer_data["priority_level"].dropna().unique())
+        selected_priorities = st.multiselect(
+            "Prioritätsstufen",
+            priority_options,
+            default=priority_options,
+            key="customer_priorities",
+        )
+    with col_count:
+        customer_top_n = st.slider("Anzahl Kunden", 5, 25, 10, key="customer_top_n")
+
+    top_customers = customer_data[customer_data["priority_level"].isin(selected_priorities)].nlargest(customer_top_n, "umsatz")
+    st.dataframe(
+        top_customers[
+            ["company_name", "customer_segment", "country", "region", "priority_level", "bestellungen", "umsatz", "durchschnittlicher_bestellwert", "letzte_bestellung"]
+        ],
+        column_config={
+            "company_name": "Kunde",
+            "customer_segment": "Segment",
+            "country": "Land",
+            "region": "Region",
+            "priority_level": "Priorität",
+            "bestellungen": st.column_config.NumberColumn("Bestellungen", format="%d"),
+            "umsatz": st.column_config.NumberColumn("Umsatz", format="%.2f €"),
+            "durchschnittlicher_bestellwert": st.column_config.NumberColumn("Ø Bestellwert", format="%.2f €"),
+            "letzte_bestellung": st.column_config.DateColumn("Letzte Bestellung", format="DD.MM.YYYY"),
+        },
+        hide_index=True,
+        width="stretch",
+    )
+
+with tab4:
     left, right = st.columns(2)
     with left:
         st.subheader("Lieferverzögerung nach Versanddienst")
@@ -133,7 +232,7 @@ with tab3:
     st.subheader("Lieferungen im Detail")
     st.dataframe(shipments[["shipment_id", "order_id", "carrier", "delivery_status", "delivery_delayed", "delivery_days"]], hide_index=True, width='stretch')
 
-with tab4:
+with tab5:
     st.subheader("CSV-Daten erkunden")
     table_name = st.selectbox("Tabelle auswählen", list(tables))
     st.write(f"{len(tables[table_name]):,} Zeilen · {len(tables[table_name].columns)} Spalten")
